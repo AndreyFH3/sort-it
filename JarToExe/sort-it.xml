@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>C:\javaDevelopment\sort-it\target\sort-it-1.0-SNAPSHOT.jar</jar>
+  <outfile>C:\Users\andre\Downloads\JarToExe\sort-it.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>11</minVersion>
+    <maxVersion></maxVersion>
+    <opt>-Denv.-i=&quot;%-i%&quot;</opt>
+    <opt>-Denv.-d=&quot;%-d%&quot;</opt>
+    <opt>-Denv.-a=&quot;%-a%&quot;</opt>
+    <opt>-Denv.-s=&quot;%-s%&quot;</opt>
+  </jre>
+</launch4jConfig>
